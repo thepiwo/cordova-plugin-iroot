@@ -7,7 +7,7 @@ interface IIRoot {
 
     isRootedRedBeer(onSuccess: (boolean) => void, onError: (any) => void): void;
 
-    isRootedRedBeerWithoutBusyBoxCheck(onSuccess: (boolean) => void, onError: (any) => void): void;
+    isRootedRedBeerWithoutBusyBox(onSuccess: (boolean) => void, onError: (any) => void): void;
 }
 
 declare var IRoot: IIRoot;
